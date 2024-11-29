@@ -48,3 +48,56 @@ li{
 .home{
     color: white;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #212529;
+    text-align: center;
+    height: 400px;
+}
+.present{
+    color: white;
+    font-weight: 500;
+    font-size: 999;
+}
+p{
+    width: 588px;
+    margin: 0 auto;
+    color: #FFFFFF80;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+}
+.get{
+    background-color: #0D6EFD;
+    color: white;
+    transition: all 1s;
+    border: none;
+}
+.get:hover{
+    background-color: blue;
+}
+.learn{
+    background-color: #212529;
+    color: white;
+    transition: all 1s;
+}
+.learn:hover{
+    background-color: white;
+    color: #212529;
+}
