@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Roboto", sans-serif;
 }
 .container{
     max-width: 65%;
@@ -49,7 +50,7 @@ li{
     color: white;
 }
 
-section{
+#section1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +64,7 @@ section{
     font-weight: 500;
     font-size: 999;
 }
-p{
+#section1-p{
     width: 588px;
     margin: 0 auto;
     color: #FFFFFF80;
@@ -100,4 +101,50 @@ button{
 .learn:hover{
     background-color: white;
     color: #212529;
+}
+
+.section-2{
+    .card-container{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+        .card{
+            margin-top: 100px;
+            border: none;
+            padding: 0 24px;
+            .card-image{
+                width: 64px;
+                height: 64px;
+                background-color: #0D6EFD;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+
+                i{
+                    font-size: 2rem;
+                }
+            }
+            .card-content{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 20px;
+                h2{
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 16px;
+                    width: 85%;
+                }
+                a{
+                    text-decoration: none;
+                    color: #0D6EFD;
+                }
+            }
+        }
+    }
 }
